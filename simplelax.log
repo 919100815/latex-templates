@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999995 (TeX Live 2023) (preloaded format=xelatex 2023.7.20)  21 JUN 2024 16:11
+This is XeTeX, Version 3.141592653-2.6-0.999995 (TeX Live 2023) (preloaded format=xelatex 2023.7.20)  24 JUN 2024 17:33
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -579,54 +579,17 @@ File: ursfs.fd 1998/03/24 rsfs font definition file (jk)
 
 LaTeX Font Info:    Font shape `TU/SimSun(0)/m/sl' in size <12> not available
 (Font)              Font shape `TU/SimSun(0)/m/it' tried instead on input line 33.
- [1]
-Overfull \hbox (16.91655pt too wide) in paragraph at lines 71--73
-[]\TU/SimSun(0)/m/n/12 对 于 $\OML/cmm/m/it/12 y \OMS/cmsy/m/n/12 2 \OML/cmm/m/it/12 Z[]$\TU/SimSun(0)/m/n/12 ，| $\OT1/cmr/m/n/12 (\OMS/cmsy/m/n/12 ^^@\OML/cmm/m/it/12 y[]\OT1/cmr/m/n/12 )[]  []  \OML/cmm/m/it/12 n \OMS/cmsy/m/n/12 2 \OML/cmm/m/it/12 QR[]$\TU/SimSun(0)/m/n/12 。|  随 机 取 $\OML/cmm/m/it/12 r \OMS/cmsy/m/n/12 2 f\OT1/cmr/m/n/12 0\OML/cmm/m/it/12 ; \OT1/cmr/m/n/12 1\OMS/cmsy/m/n/12 g[]$\TU/SimSun(0)/m/n/12 ，|  则 $\OT1/cmr/m/n/12 (\OMS/cmsy/m/n/12 ^^@\OML/cmm/m/it/12 y[]\OT1/cmr/m/n/12 )[]  []
- []
-
-[1] [2]
-Missing character: There is no 运 (U+8FD0) in font [lmroman12-regular]:mapping=tex-text;!
-Missing character: There is no 行 (U+884C) in font [lmroman12-regular]:mapping=tex-text;!
-Missing character: There is no 时 (U+65F6) in font [lmroman12-regular]:mapping=tex-text;!
-Missing character: There is no 间 (U+95F4) in font [lmroman12-regular]:mapping=tex-text;!
-[3] [4]
-Overfull \hbox (11.62723pt too wide) in paragraph at lines 235--237
-[]\TU/SimSun(0)/m/n/12 对 于 \TU/lmr/m/n/12 Level = 2 \TU/SimSun(0)/m/n/12 的 密 文 同 态 加 法 计 算，|  对 于 输 入 密 文 $\OML/cmm/m/it/12 C[] \OT1/cmr/m/n/12 = [] \OML/cmm/m/it/12 ; i \OT1/cmr/m/n/12 =
- []
-
-
-Overfull \hbox (10.46718pt too wide) in paragraph at lines 257--260
-[]\TU/SimSun(0)/m/n/12 对 于 \TU/lmr/m/n/12 Level = 2 \TU/SimSun(0)/m/n/12 的 密 文 同 态 加 法 计 算，|  若 $\OML/cmm/m/it/12 C[]; C[]$ \TU/SimSun(0)/m/n/12 分 别 由 明 文 $\OML/cmm/m/it/12 m[]; m[]; m[]; m[]$
- []
-
-[5]
-Overfull \hbox (22.24579pt too wide) in paragraph at lines 280--282
-\TU/SimSun(0)/m/n/12 情 况 \TU/lmr/m/n/12 2 \TU/SimSun(0)/m/n/12 下，| $\OML/cmm/m/it/12 C[] \OT1/cmr/m/n/12 = \OML/cmm/m/it/12 C[] \OMS/cmsy/m/n/12 ^^L \OML/cmm/m/it/12 C[] \OT1/cmr/m/n/12 = ((\OML/cmm/m/it/12 ^^K; ^^K[]\OT1/cmr/m/n/12 )\OML/cmm/m/it/12 ; \OT1/cmr/m/n/12 (\OML/cmm/m/it/12 ^^K[]; ^^L[]; ^^L[]\OT1/cmr/m/n/12 )\OML/cmm/m/it/12 ; \OT1/cmr/m/n/12 (\OML/cmm/m/it/12 ^^K; ^^L[]; ^^L[]\OT1/cmr/m/n/12 )\OML/cmm/m/it/12 ; \OT1/cmr/m/n/12 (\OML/cmm/m/it/12 ^^L[]; ^^L[]; ^^L[]; ^^L[]\OT1/cmr/m/n/12 ))$\TU/SimSun(0)/m/n/12 。| 
- []
-
-[6] [7]
-Underfull \hbox (badness 10000) in paragraph at lines 346--347
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 348--349
-
- []
-
-File: fig.png Graphic file (type bmp)
-<fig.png>
-[8] (./simplelax.aux)
+ [1] [1] (./simplelax.aux)
 Package rerunfilecheck Info: File `simplelax.out' has not changed.
-(rerunfilecheck)             Checksum: 5A9E992959C40650F2D4E079661064CE;993.
+(rerunfilecheck)             Checksum: 55D185213D3E6856AAA9D9F877D76F10;317.
  ) 
 Here is how much of TeX's memory you used:
- 17071 strings out of 478630
- 372781 string characters out of 5847730
- 1860012 words of memory out of 5000000
- 36905 multiletter control sequences out of 15000+600000
+ 16972 strings out of 478630
+ 367675 string characters out of 5847730
+ 1850012 words of memory out of 5000000
+ 36809 multiletter control sequences out of 15000+600000
  528320 words of font info for 122 fonts, out of 8000000 for 9000
  36 hyphenation exceptions out of 8191
- 89i,16n,97p,435b,413s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 89i,10n,97p,435b,362s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on simplelax.pdf (10 pages).
+Output written on simplelax.pdf (3 pages).
