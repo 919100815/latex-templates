@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999995 (TeX Live 2023) (preloaded format=xelatex 2023.7.20)  24 JUN 2024 17:33
+This is XeTeX, Version 3.141592653-2.6-0.999995 (TeX Live 2023) (preloaded format=xelatex 2023.7.20)  3 JUL 2024 15:41
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -573,23 +573,31 @@ LaTeX Font Info:    Trying to load font information for U+rsfs on input line 19.
 File: ursfs.fd 1998/03/24 rsfs font definition file (jk)
 ) [0
 
-] (./simplelax.toc)
+] [1] (./simplelax.toc)
 \tf@toc=\write4
 \openout4 = `simplelax.toc'.
 
 LaTeX Font Info:    Font shape `TU/SimSun(0)/m/sl' in size <12> not available
 (Font)              Font shape `TU/SimSun(0)/m/it' tried instead on input line 33.
- [1] [1] (./simplelax.aux)
+ [1]
+File: fig.png Graphic file (type bmp)
+<fig.png>
+ [1] [2]
+Underfull \hbox (badness 10000) in paragraph at lines 123--125
+
+ []
+
+[3] [4] (./simplelax.aux)
 Package rerunfilecheck Info: File `simplelax.out' has not changed.
-(rerunfilecheck)             Checksum: 55D185213D3E6856AAA9D9F877D76F10;317.
+(rerunfilecheck)             Checksum: 6B7B42D954A14B894958995C16BF9CBE;826.
  ) 
 Here is how much of TeX's memory you used:
- 16972 strings out of 478630
- 367675 string characters out of 5847730
- 1850012 words of memory out of 5000000
- 36809 multiletter control sequences out of 15000+600000
- 528320 words of font info for 122 fonts, out of 8000000 for 9000
+ 17030 strings out of 478630
+ 370190 string characters out of 5847730
+ 1852012 words of memory out of 5000000
+ 36862 multiletter control sequences out of 15000+600000
+ 528336 words of font info for 124 fonts, out of 8000000 for 9000
  36 hyphenation exceptions out of 8191
- 89i,10n,97p,435b,362s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 89i,15n,97p,435b,356s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on simplelax.pdf (3 pages).
+Output written on simplelax.pdf (7 pages).
