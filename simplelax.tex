@@ -23,7 +23,7 @@
 \newpage
 \begin{abstract}
     这里是摘要。这里是摘要。这里是摘要。这里是摘要。这里是摘要。这里是摘要。这里是摘要。这里是摘要。这里是摘要。这里是摘要。这里是摘要。这里是摘要。
-    \par\textbf{关键词：}这里是关键词; 这里是关键词.
+    \par\textbf{关键词：}这里是关键词; 这里是关键词。
 \end{abstract}
 
 \newpage
@@ -38,7 +38,7 @@
 
 %\subsection{二级标题}
 
-
+\newpage
 
 
 
@@ -79,7 +79,6 @@
     \end{tabular}
 \end{table}
 
-
 \begin{table}[htbp]
     \centering  % 显示位置为中间
     \caption{ }  % 表格标题
@@ -100,13 +99,15 @@
     \end{tabular}
 \end{table}
 
+\newpage
 
 \section{图片}
 \subsection{单图}
 \begin{figure*} [htbp!]
-    \centering
-    \includegraphics[scale=0.5]{fig.png}
-    \caption{图1}
+    \makebox[\textwidth][c]{\includegraphics[width=1.2\textwidth]{chiji.png}}%使用此代码需注意图片比例，否则图片会被伸缩
+    %\includegraphics[scale=0.25]{chiji.png}%按比例缩放的时候可以用次代码
+    
+    \caption{0杀吃鸡}
     \label{fig1}
 \end{figure*}
 \subsection{多图}
