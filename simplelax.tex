@@ -1,6 +1,6 @@
 \documentclass[12pt, a4paper, oneside]{ctexart}
 \usepackage[backend=biber]{biblatex}
-\usepackage{amsmath, amsthm, amssymb, appendix, bm, graphicx, hyperref, mathrsfs,adjustbox,enumerate,colortbl,bbding,booktabs}
+\usepackage{amsmath, amsthm, amssymb, appendix, bm, graphicx, hyperref, mathrsfs,adjustbox,enumerate,colortbl,bbding,booktabs,subcaption,algorithm, algorithmic}
 \usepackage[table]{xcolor}
 \addbibresource{biber.bib}
 \title{\textbf{论文标题}}
@@ -77,25 +77,8 @@ dingli\cite{elgamal1985public}
         \end{tabular}
     \end{adjustbox}
 \end{table}
-\begin{table}[htbp]
-    \centering  % 显示位置为中间
-    \caption{ }  % 表格标题
-    \label{tab111}  % 用于索引表格的标签
-    %字母的个数对应列数，|代表分割线
-    % l代表左对齐，c代表居中，r代表右对齐
-    \begin{tabular}{|c|c|}
-    \end{tabular}
-\end{table}
 
-\begin{table}[htbp]
-    \centering  % 显示位置为中间
-    \caption{ }  % 表格标题
-    \label{tab333}  % 用于索引表格的标签
-    %字母的个数对应列数，|代表分割线
-    % l代表左对齐，c代表居中，r代表右对齐
-    \begin{tabular}{|c|c|}
-    \end{tabular}
-\end{table}
+
 
 \begin{itemize}
     \item \colorbox{blue}{blue}
@@ -109,29 +92,111 @@ dingli\cite{elgamal1985public}
     \centering
     \begin{tabular}{cccc}
         \toprule
-        \textbf{蓝色}      & \textbf{浅绿色}            & \textbf{深绿色}           & \textbf{黄色}        \\
+        \textbf{蓝色}                      & \textbf{浅绿色}                            & \textbf{深绿色}                           & \textbf{黄色}                        \\
         \midrule
-        \cellcolor{blue} & \cellcolor{light_green} & \cellcolor{dark_green} & \cellcolor{yellow} \\
+        \cellcolor{blue}\footnotemark[1] & \cellcolor{light_green}\footnotemark[2] & \cellcolor{dark_green}\footnotemark[3] & \cellcolor{yellow}\footnotemark[4] \\
         \bottomrule
     \end{tabular}
 \end{table}
-
+\footnotetext[1]{这是蓝色}
+\footnotetext[2]{这是深绿色}
+\footnotetext[3]{这是浅蓝色}
+\footnotetext[4]{这是黄色}
 
 \newpage
 
 \section{图片}
 \subsection{单图}
 \begin{figure*} [htbp!]
-    \makebox[\textwidth][c]{\includegraphics[width=1.2\textwidth]{chiji.png}}%使用此代码需注意图片比例，否则图片会被伸缩
+    \makebox[\textwidth][c]{\includegraphics[width=1.2\textwidth]{fig/chiji.png}}%使用此代码需注意图片比例，否则图片会被伸缩
     %\includegraphics[scale=0.25]{chiji.png}%按比例缩放的时候可以用次代码
 
     \caption{0杀吃鸡}
     \label{fig1}
 \end{figure*}
 \subsection{多图}
+
+\begin{figure}[htbp]
+    \centering
+    \begin{subfigure}{0.3\textwidth}
+        \centering
+        \includegraphics[width=\textwidth]{fig/1.png} % 图片1
+        \caption{图1}
+    \end{subfigure}
+    \hfill
+    \begin{subfigure}{0.3\textwidth}
+        \centering
+        \includegraphics[width=\textwidth]{fig/2.png} % 图片2
+        \caption{图2}
+    \end{subfigure}
+    \hfill
+    \begin{subfigure}{0.3\textwidth}
+        \centering
+        \includegraphics[width=\textwidth]{fig/3.png} % 图片3
+        \caption{图3}
+    \end{subfigure}
+
+    \medskip % 垂直间距
+
+    \begin{subfigure}{0.3\textwidth}
+        \centering
+        \includegraphics[width=\textwidth]{fig/4.png} % 图片4
+        \caption{图4}
+    \end{subfigure}
+    \hfill
+    \begin{subfigure}{0.3\textwidth}
+        \centering
+        \includegraphics[width=\textwidth]{fig/5.png} % 图片5
+        \caption{图5}
+    \end{subfigure}
+    \hfill
+    \begin{subfigure}{0.3\textwidth}
+        \centering
+        \includegraphics[width=\textwidth]{fig/6.png} % 图片6
+        \caption{图6}
+    \end{subfigure}
+
+    \medskip % 垂直间距
+
+    \begin{subfigure}{0.3\textwidth}
+        \centering
+        \includegraphics[width=\textwidth]{fig/7.png} % 图片7
+        \caption{图7}
+    \end{subfigure}
+    \hfill
+    \begin{subfigure}{0.3\textwidth}
+        \centering
+        \includegraphics[width=\textwidth]{fig/8.png} % 图片8
+        \caption{图8}
+    \end{subfigure}
+    \hfill
+    \begin{subfigure}{0.3\textwidth}
+        \centering
+        \includegraphics[width=\textwidth]{fig/9.png} % 图片9
+        \caption{图9}
+    \end{subfigure}
+
+    \caption{九宫格图片布局}
+\end{figure}
+
 \newpage
 
 \section{公式}
+\textbf{希腊字母}：
+\vspace{2mm} \\
+\begin{tabular}{|l|l|l|l|l|l|}
+    \hline
+    $ \alpha $ & \verb|\alpha|  & $ \beta $    & \verb|\beta|    & $ \gamma $      & \verb|\gamma|      \\ \hline
+    $ \delta $ & \verb|\delta|  & $ \epsilon $ & \verb|\epsilon| & $ \varepsilon $ & \verb|\varepsilon| \\ \hline
+    $ \zeta  $ & \verb|\zeta|   & $ \eta $     & \verb|\eta|     & $ \theta $      & \verb|\theta|      \\ \hline
+    $ \lambda$ & \verb|\lambda| & $ \mu  $     & \verb|\mu|      & $ \nu $         & \verb|\nu|         \\ \hline
+    $ \xi    $ & \verb|\xi|     & $ \pi $      & \verb|\pi|      & $ \rho $        & \verb|\rho|        \\ \hline
+    $ \sigma $ & \verb|\sigma|  & $ \tau $     & \verb|\tau|     & $ \phi $        & \verb|\phi|        \\ \hline
+    $ \varphi$ & \verb|\varphi| & $ \psi $     & \verb|\psi|     & $ \omega $      & \verb|\omega|      \\ \hline
+\end{tabular}
+\vspace{2mm}  \\
+以下字母存在大写形式(省略了一些带\verb|\var|前缀的)，只需把首字母大写即可。
+
 \subsection{单行公式}
 单行公式较为简单，直接在\$...\$之间输入公式代码即可，例如：\par
 \begin{equation}
@@ -159,6 +224,24 @@ $$
 $$
 \subsection{公式编号}
 还没想好捏
+
+\section{算法}
+
+\begin{algorithm}
+    \renewcommand{\algorithmicrequire}{\textbf{Input:}}
+    \renewcommand{\algorithmicensure}{\textbf{Output:}}
+    \caption{斐波那契数列算法}
+    \label{alg:fibonacci}
+    \begin{algorithmic}[1]
+        \REQUIRE  斐波那契数列的长度$n$
+        \ENSURE 斐波那契数列的前$n$项
+        \STATE Initialize $F[0] \gets 0$, $F[1] \gets 1$
+        \FOR{$i = 2$ to $n$}
+        \STATE $F[i] \gets F[i-1] + F[i-2]$
+        \ENDFOR
+        \STATE \textbf{return} 斐波那契数列 $F[0], F[1], \ldots, F[n-1]$
+    \end{algorithmic}
+\end{algorithm}
 
 
 \newpage
