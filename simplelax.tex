@@ -1,7 +1,7 @@
 \documentclass[12pt, a4paper, oneside]{ctexart}
 \usepackage[backend=biber]{biblatex}
-\usepackage{amsmath, amsthm, amssymb, appendix, bm, graphicx, hyperref, mathrsfs,adjustbox,enumerate}
-
+\usepackage{amsmath, amsthm, amssymb, appendix, bm, graphicx, hyperref, mathrsfs,adjustbox,enumerate,colortbl,bbding,booktabs}
+\usepackage[table]{xcolor}
 \addbibresource{biber.bib}
 \title{\textbf{论文标题}}
 \author{tanghongyu}
@@ -14,6 +14,12 @@
 \newtheorem{example}[theorem]{例}
 \newtheorem{proposition}[theorem]{命题}
 \renewcommand{\abstractname}{\Large\textbf{摘要}}
+
+\definecolor{blue}{RGB}{125,176,220}
+\definecolor{dark_green}{RGB}{81,178,103}
+\definecolor{light_green}{RGB}{202,224,173}
+\definecolor{yellow}{RGB}{246,239,96}
+
 
 \begin{document}
 
@@ -91,15 +97,25 @@ dingli\cite{elgamal1985public}
     \end{tabular}
 \end{table}
 
+\begin{itemize}
+    \item \colorbox{blue}{blue}
+    \item \colorbox{dark_green}{dark green}
+    \item \colorbox{light_green}{light green}
+    \item \colorbox{yellow}{yellow}
+\end{itemize}
+
+
 \begin{table}[htbp]
-    \centering  % 显示位置为中间
-    \caption{ }  % 表格标题
-    \label{tab222}  % 用于索引表格的标签
-    %字母的个数对应列数，|代表分割线
-    % l代表左对齐，c代表居中，r代表右对齐
-    \begin{tabular}{|c|c|}
+    \centering
+    \begin{tabular}{cccc}
+        \toprule
+        \textbf{蓝色}      & \textbf{浅绿色}            & \textbf{深绿色}           & \textbf{黄色}        \\
+        \midrule
+        \cellcolor{blue} & \cellcolor{light_green} & \cellcolor{dark_green} & \cellcolor{yellow} \\
+        \bottomrule
     \end{tabular}
 \end{table}
+
 
 \newpage
 
