@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999996 (TeX Live 2024) (preloaded format=xelatex 2024.6.5)  10 JUL 2024 16:24
+This is XeTeX, Version 3.141592653-2.6-0.999996 (TeX Live 2024) (preloaded format=xelatex 2024.6.5)  10 JUL 2024 18:58
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -957,7 +957,6 @@ Package fontspec Info: Font family 'FangSong(0)' created for font 'FangSong'
  [2]
 File: fig/chiji.png Graphic file (type bmp)
 <fig/chiji.png>
- [3]
 File: fig/1.png Graphic file (type bmp)
 <fig/1.png>
 File: fig/2.png Graphic file (type bmp)
@@ -976,17 +975,18 @@ File: fig/8.png Graphic file (type bmp)
 <fig/8.png>
 File: fig/9.png Graphic file (type bmp)
 <fig/9.png>
- [4]
-Underfull \hbox (badness 10000) in paragraph at lines 235--237
+ [3]
+Underfull \hbox (badness 10000) in paragraph at lines 187--189
 
  []
 
-Package hyperref Info: bookmark level for unknown algorithm defaults to 0 on input line 261.
-[5]
+[4] [5]
+Package hyperref Info: bookmark level for unknown algorithm defaults to 0 on input line 213.
+ [6]
 
-LaTeX Warning: Empty bibliography on input line 277.
+LaTeX Warning: Empty bibliography on input line 229.
 
-[6] (./simplelax.aux)
+[7] (./simplelax.aux)
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2022/07/14>
@@ -1015,4 +1015,4 @@ Here is how much of TeX's memory you used:
  36 hyphenation exceptions out of 8191
  93i,15n,131p,678b,1136s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on simplelax.pdf (9 pages).
+Output written on simplelax.pdf (10 pages).
