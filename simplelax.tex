@@ -1,6 +1,6 @@
 \documentclass[12pt, a4paper, oneside]{ctexart}
 \usepackage[backend=biber]{biblatex}
-\usepackage{amsmath, amsthm, amssymb, appendix, bm, graphicx, hyperref, mathrsfs,adjustbox,enumerate,colortbl,bbding,booktabs,subcaption,algorithm, algorithmic}
+\usepackage{amsmath, amsthm, float, booktabs, amssymb, appendix, bm, graphicx, hyperref, mathrsfs,adjustbox,enumerate,colortbl,bbding,booktabs,subcaption,algorithm, algorithmic}
 \usepackage[table]{xcolor}
 \addbibresource{biber.bib}
 \title{\textbf{论文标题}}
@@ -53,30 +53,70 @@ dingli\cite{elgamal1985public}
 
 \section{表格}
 
-\begin{table}[htbp]
-    \centering  % 显示位置为中间
-    \caption{ }  % 表格标题
-    \label{tab1}  % 用于索引表格的标签
-    %字母的个数对应列数，|代表分割线
-    % l代表左对齐，c代表居中，r代表右对齐
-    \begin{tabular}{|c|c|c|}
-    \end{tabular}
-\end{table}
+% \begin{table}[htbp]
+%     \centering  % 显示位置为中间
+%     \caption{ }  % 表格标题
+%     \label{tab1}  % 用于索引表格的标签
+%     %字母的个数对应列数，|代表分割线
+%     % l代表左对齐，c代表居中，r代表右对齐
+%     \begin{tabular}{|c|c|c|}
+%     \end{tabular}
+% \end{table}
+
 %\begin{theorem}
 
+
+
+ 
+
+ 
+% \begin{table}[htbp]
+%     \begin{tabular}{|c|c|c|c|c|c|}
+%     \hline
+%     1 & 2 & 3 & 4 & 5 & 6 \\ \hline
+%     2 & 3 & 4 & 5 & 6 & 7 \\ \hline
+%     2 & 3 & 4 & 5 & 6 & 7 \\ \hline
+%     2 & 3 & 4 & 5 & 6 & 7 \\ \hline
+%     2 & 3 & 4 & 5 & 6 & 7 \\ \hline
+%     2 & 3 & 4 & 5 & 6 & 7 \\ \hline
+%     2 & 3 & 4 & 5 & 6 & 7 \\ \hline
+%     \end{tabular}
+%     \end{table}
+
+ 
+
+
+\begin{table}[!htbp]
+    \textbf{希腊字母}：
+    \vspace{2mm} \\
+    \centering
+\begin{tabular}{|l|l|l|l|l|l|}
+        \hline
+    $ \alpha $ & \verb|\alpha|  & $ \beta $    & \verb|\beta|    & $ \gamma $      & \verb|\gamma|      \\ \hline
+    $ \delta $ & \verb|\delta|  & $ \epsilon $ & \verb|\epsilon| & $ \varepsilon $ & \verb|\varepsilon| \\ \hline
+    $ \zeta  $ & \verb|\zeta|   & $ \eta $     & \verb|\eta|     & $ \theta $      & \verb|\theta|      \\ \hline
+    $ \lambda$ & \verb|\lambda| & $ \mu  $     & \verb|\mu|      & $ \nu $         & \verb|\nu|         \\ \hline
+    $ \xi    $ & \verb|\xi|     & $ \pi $      & \verb|\pi|      & $ \rho $        & \verb|\rho|        \\ \hline
+    $ \sigma $ & \verb|\sigma|  & $ \tau $     & \verb|\tau|     & $ \phi $        & \verb|\phi|        \\ \hline
+    $ \varphi$ & \verb|\varphi| & $ \psi $     & \verb|\psi|     & $ \omega $      & \verb|\omega|      \\ \hline
+\end{tabular}
+\vspace{2mm}  \\
+\end{table}
+
+以下字母存在大写形式(省略了一些带\verb|\var|前缀的)，只需把首字母大写即可。
 %\end{theorem}
 
-\begin{table}[htbp]
-    \centering  % 显示位置为中间
-    \caption{ }  % 表格标题
-    \label{tab2}  % 用于索引表格的标签
-    %字母的个数对应列数，|代表分割线
-    % l代表左对齐，c代表居中，r代表右对齐
-    \begin{adjustbox}{max width=\textwidth}
-        \begin{tabular}{|c|c|c|}
-        \end{tabular}
-    \end{adjustbox}
-\end{table}
+% \begin{table}[htbp]
+%     \centering  % 显示位置为中间
+%     \caption{ }  % 表格标题
+%     \label{tab2}  % 用于索引表格的标签
+%     %字母的个数对应列数，|代表分割线
+%     % l代表左对齐，c代表居中，r代表右对齐
+%     \begin{adjustbox}{max width=\textwidth}
+%         \begin{tabular}{|c|c|c|}
+%         \end{tabular}
+%     \end{adjustbox}
+% \end{table}
 
 
 
@@ -114,6 +154,7 @@ dingli\cite{elgamal1985public}
     \caption{0杀吃鸡}
     \label{fig1}
 \end{figure*}
+\newpage
 \subsection{多图}
 
 \begin{figure}[htbp]
@@ -182,20 +223,7 @@ dingli\cite{elgamal1985public}
 \newpage
 
 \section{公式}
-\textbf{希腊字母}：
-\vspace{2mm} \\
-\begin{tabular}{|l|l|l|l|l|l|}
-    \hline
-    $ \alpha $ & \verb|\alpha|  & $ \beta $    & \verb|\beta|    & $ \gamma $      & \verb|\gamma|      \\ \hline
-    $ \delta $ & \verb|\delta|  & $ \epsilon $ & \verb|\epsilon| & $ \varepsilon $ & \verb|\varepsilon| \\ \hline
-    $ \zeta  $ & \verb|\zeta|   & $ \eta $     & \verb|\eta|     & $ \theta $      & \verb|\theta|      \\ \hline
-    $ \lambda$ & \verb|\lambda| & $ \mu  $     & \verb|\mu|      & $ \nu $         & \verb|\nu|         \\ \hline
-    $ \xi    $ & \verb|\xi|     & $ \pi $      & \verb|\pi|      & $ \rho $        & \verb|\rho|        \\ \hline
-    $ \sigma $ & \verb|\sigma|  & $ \tau $     & \verb|\tau|     & $ \phi $        & \verb|\phi|        \\ \hline
-    $ \varphi$ & \verb|\varphi| & $ \psi $     & \verb|\psi|     & $ \omega $      & \verb|\omega|      \\ \hline
-\end{tabular}
-\vspace{2mm}  \\
-以下字母存在大写形式(省略了一些带\verb|\var|前缀的)，只需把首字母大写即可。
+
 
 \subsection{单行公式}
 单行公式较为简单，直接在\$...\$之间输入公式代码即可，例如：\par

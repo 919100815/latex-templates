@@ -2,11 +2,11 @@
 \contentsline {section}{\numberline {2}表格}{2}{section.2}%
 \contentsline {section}{\numberline {3}图片}{3}{section.3}%
 \contentsline {subsection}{\numberline {3.1}单图}{3}{subsection.3.1}%
-\contentsline {subsection}{\numberline {3.2}多图}{3}{subsection.3.2}%
+\contentsline {subsection}{\numberline {3.2}多图}{4}{subsection.3.2}%
 \contentsline {section}{\numberline {4}公式}{5}{section.4}%
 \contentsline {subsection}{\numberline {4.1}单行公式}{5}{subsection.4.1}%
 \contentsline {subsection}{\numberline {4.2}多行公式}{5}{subsection.4.2}%
-\contentsline {subsection}{\numberline {4.3}分情况讨论}{6}{subsection.4.3}%
-\contentsline {subsection}{\numberline {4.4}公式编号}{6}{subsection.4.4}%
-\contentsline {section}{\numberline {5}算法}{6}{section.5}%
-\contentsline {section}{\numberline {A}附录标题}{7}{appendix.a.A}%
+\contentsline {subsection}{\numberline {4.3}分情况讨论}{5}{subsection.4.3}%
+\contentsline {subsection}{\numberline {4.4}公式编号}{5}{subsection.4.4}%
+\contentsline {section}{\numberline {5}算法}{5}{section.5}%
+\contentsline {section}{\numberline {A}附录标题}{6}{appendix.a.A}%
